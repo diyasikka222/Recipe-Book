@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Margarine">
+</head>
+<body>
+    
+    <nav>
+        <h1>ADD YOUR RECIPES HERE!</h1>
+    </nav>
+
+    <!-- form code -->
+    <form>
+        <!-- Recipe name code -->
+        <label for="Recipe Name">RECIPE NAME:</label>
+        <input type="text" id="recipeName" required>
+        <br>
+
+        <!-- Recipe Type Code -->
+        <label for="Recipe Type">RECIPE TYPE:</label>
+        <select>
+            <option value="Veg">Veg</option>
+            <option value="Non Veg">Non Veg</option>
+            <option value="Egg">Contains Egg</option>
+        </select>
+        <br>
+
+        <!-- Recipe Ingredients Code -->
+        <label for="Recipe Ingredients">INGREDIENTS REQUIRED:</label>
+        <br>
+        <textarea id="Ingredients" cols="30" rows="10" required></textarea>
+        <br>
+
+        <!-- Preparation Steps Code -->
+        <label for="Preparation">PREPARATION STEPS:</label>
+        <br>
+        <textarea id="Preparation" cols="30" rows="10" required></textarea>
+        <br>
+
+        <!-- Image Upload Code -->
+        <label for="image" id="Upload">UPLOAD IMAGE:</label>
+        <br>
+        <input type="file" id="image" accept="image/png, image/jpeg, image/svg"></label>
+        <br>
+
+        <!-- Submit Button Code -->
+        <div class="container">
+            <input type="submit" id="post" value="POST">
+        </div>
+    </form>
+</body>
+</html>

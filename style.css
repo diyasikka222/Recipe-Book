@@ -1,0 +1,93 @@
+*{
+    font-family: Margarine ;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.dark-theme {
+    background-color: var(--secondary-color);
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+}
+
+nav {
+    display: flex;
+    background-color: #F0E68C;
+    height: 110px;
+}
+
+nav h1 {
+    font-size: 70px;
+    margin-top: 10px;
+    text-shadow: white 5px 5px;
+}
+
+.features {
+    margin-left: 700px;
+    margin-top: 40px;
+}
+
+nav i {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: #ff8791;
+}
+
+.recipes {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recipe1, .recipe2, .recipe3 {
+    margin-left: 35px;
+    background-color: #6ee6da;
+    border-radius: 50px;
+    box-shadow:	#484848 10px 10px;
+}
+
+.recipes img {
+    width: 400px;
+    height: 420px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.recipes h3 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: white 5px 5px;
+}
+
+.recipe1 button, .recipe2 button, .recipe3 button {
+    background-color: #ff8791;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.recipe1 button:hover, .recipe2 button:hover, .recipe3 button:hover {
+    background-color: #484848;
+}
